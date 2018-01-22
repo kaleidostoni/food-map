@@ -1,0 +1,90 @@
+.div1 {
+  background-image: url(../assets/images/foodmap.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+}
+
+.logo {
+	font-family: 'Sigmar One', cursive;
+	text-align: center;
+	font-size: 3em;
+	color:white;
+	display:block;
+	padding-top: 15vh;
+	text-shadow: 0 3px 1px #8C7506;
+}
+
+
+
+body > div.div2 > nav {
+	background-color: #E9C600;
+	box-shadow: 1px 2px 3px gray;
+}
+
+.div2 > nav > a.logo2 {
+	padding-top: 2vh;
+	font-size: 1.7em;
+	font-family: 'Sigmar One', cursive;
+	color:white;
+	text-shadow: 0 1px 1px #8C7506;
+	text-align: center;
+}
+
+.div2 {
+  background-image: url(../assets/images/back.jpg);
+  background-size: cover;
+  background-repeat: repeat;
+  background-position: center;
+  height: 150vh;
+  display: none;
+}
+
+.map  {
+	margin: 0 auto 5vh auto;
+	height: 40vh;
+	display: block;
+}
+
+iframe {
+	width: 100%;
+}
+
+.input-group {
+	margin: 3vh auto; 
+	width: 80%;
+	background-color: rgba(255,255,255,0.85);
+	border-radius: 0.5em;
+	box-shadow: 1px 2px 3px gray;
+	padding:2vh;
+}
+
+
+.restaurant {
+	background-color: rgba(255,255,255,0.85);
+	color:white;
+	height: 10vh;
+	width: 80%;
+	margin-bottom: 5vh;
+	margin:0 auto 5vh auto;
+	border-radius: 0.5em;
+	box-shadow: 1px 2px 3px gray;
+	height: 15vh;
+	padding: 2vh 0 0 2vw;
+}
+
+.btn-more {
+	width: 70%;
+	margin:0 auto;
+	display: block;
+	background-color: white;
+}
+.name {
+	background-color:white;
+	font-size: 1.4em;
+	font-weight: bolder;
+	text-align: center;
+	color:#1b1063;
+	text-shadow: 1px 1px 1px gray;
+}
